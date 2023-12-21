@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    overflow: hidden;
+}
+.navbar-nav li a:hover{
+    background-color: aqua;
+}
+#services{
+    background-image: url(images/slider-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+.carousel-inner{
+    background-color: dimgray;
+    height: 100vh;
+    opacity: 0.7;
+    
+}
+.carousel-flip{
+    position: relative;
+    height: 100vh;
+}
+.box-4 span{
+    color: blue;
+    
+}
+.box-5{
+    display: flex;
+}
+.box-5 img{
+    width: 10%;
+    height: 70px;
+}
+.box-6 button{
+    text-transform: capitalize;
+}
+.box-6 button:hover{
+    color: blue;
+}
+.box-10 span{
+    color: blue;
+    
+}
+.box-11 img{
+    width: 100%;
+}
+.box-18{
+    background-image: url(images/track-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+}
+.box-19{
+    background-color: black;
+    height: 70vh;
+    opacity: 0.7;
+}
+.box-19 p{
+    width: 50%;
+}
+.ger{
+    width: 25%;
+    height: 50px;
+    padding: 5px 10px;
+}
+.box-19 button{
+    width: 10%;
+    margin-bottom: 5px;
+}
+.box-22 span{
+    color: blue;
+    
+}
+.box-24 p{
+    width: 100%;
+}
+#six{
+    overflow-x: hidden;
+}
+.ner{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+.box-33 button{
+    text-transform: uppercase;
+    width: 30%;
+    margin-top: 20px;
+}
+.map iframe{
+    width:500px;
+    height: 500px;
+}
+.icons i{
+    margin: 10px;
+}
+.icons span{
+    padding: 10px;
+
+}
+.box-38 p{
+    border-bottom: 2px solid gainsboro;
+}
+#eight{
+    height:50vh;
+    background-color: rgba(0, 0, 139, 0.929);
+}
+
+@media(max-width:600px)
+{
+    #services{
+        height: auto;
+    }
+    .carousel-inner{
+        height: auto;
+    }
+    .box-12{
+        height: auto;
+        width: 100%;
+    }
+    .box-13{
+        height: auto;
+    }
+    .box-13 p{
+        width: auto;
+    }
+    .ger{
+        width: auto;
+        height: 50px;
+        padding: 10px 20px;
+    }
+    .box-14 button{
+        width:auto;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        margin-right: 5px;
+        
+    }
+    .box-18{
+        height: auto;
+    }
+    .box-19{
+        height: auto;
+    }
+    .box-19 p{
+        width: auto;
+    }
+    .box-19 button{
+        width: auto;
+    }
+    .box-24 p{
+        width: auto;
+    }
+    .carousel-flip{
+        height: auto;
+    }
+    .map iframe{
+        width: auto;
+        height: auto;
+    }
+    .ner{
+        width: auto;
+        height: auto;
+    }
+    #eight{
+        height: auto;
+    }
+    
+
+}
+
